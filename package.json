@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/kj800x/xtouch#readme",
   "dependencies": {
-    "midi": "^0.9.5"
+    "midi": "^0.9.5",
+    "nanoevents": "^1.0.8"
   }
 }
