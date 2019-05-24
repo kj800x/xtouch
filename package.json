@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kj800x/xtouch/issues"
   },
-  "homepage": "https://github.com/kj800x/xtouch#readme"
+  "homepage": "https://github.com/kj800x/xtouch#readme",
+  "dependencies": {
+    "midi": "^0.9.5"
+  }
 }
