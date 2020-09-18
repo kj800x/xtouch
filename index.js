@@ -15,7 +15,8 @@ function attemptConnection() {
 
   const count = input.getPortCount();
   for (let i = 0; i < count; i++) {
-    if (input.getPortName(i) === "X-Touch 32:0") {
+    console.log(input.getPortName(i));
+    if (input.getPortName(i) === "X-Touch 28:0") {
       input.openPort(i);
       emitter.emit("connectionStateChange", true) // TODO figure out how to emit when we lose connection
       connected = true;
